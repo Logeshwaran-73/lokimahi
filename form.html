@@ -1,0 +1,62 @@
+<!HTMLDOC html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>College admission form</title>
+</head>
+<body>
+    <img src="C:\Users\loges\OneDrive\Desktop\logo.png" height=140 width=160 align="center">
+<h1 style="color: darkblue ; text-align: center;"> Sri Krishna College of Technology, Kovaipudhur </h1>
+<h2 style="color: darkred ; text-align: center;"> Admission form </h1>
+ <hr>
+    <br>
+    <img src="C:\Users\loges\OneDrive\Desktop\loki html\skct.jpg" height =175 width = 359> <hr><br>
+<form>
+    <label for="fname"> First name      </label> <br>
+    <input type="text" id="fname" name="fname" value="eg: Logeshwaran"><br><br>
+    <label for="lname"> Last name       </label> <br>
+    <input type="text" id="lname" name="lname" value="eg: Kumar"><br><br>
+    <label for="fathername"> Father name: </label> <br>
+    <input type="text" id="fathername" name="fathername" value="eg: Kumar"><br><br>
+    <label for="date max">Enter a date before / 1998-06-01</label> <br>
+    <input type="date" id="datemax" name="datemax"><br><br>
+    <label for="gender">Select gender</label> <br>
+    <input type="radio" id="gender" name="gender" value="Male"/>Male
+    <input type="radio" id="gender" name="gender" value="Female"/>Female
+    <input type="radio" id="gender" name="gender" value="Others"/>Others <br><br>
+    <label for="age">Select your age</label> <br>
+    <input type="number" id="age" name="age" size="2" max="24" min="17"><br><br>
+    <label for="Quota"> Quota</label> <br>
+    <input type="radio" id="Quota" name="Quota" value="GQ"/>GQ
+    <input type="radio" id="Quota" name="Quota" value="MQ"/>MQ <br><br>
+    <label for="course"> Course type: </label> <br>
+    <input type="text" id="coursetype" name="coursetype" value="Bachelor of Engineering" readonly><br><br>
+    <label for="course"> Major in B.E:</label> <br>
+    <input list="B.E/B.tech">
+    <datalist id="B.E/B.tech">
+    <option value="CSE">
+    <option value="IT">
+    <option value="AIDS">
+    <option value="ECE">
+    <option value="EEE">
+    <option value="Mech">
+    <option value="Civil">
+    </datalist> <br><br>
+    <label for="lname"></label>
+    <label for="number"> Enter students's phone number</label> <br>
+    <input type="number" id="number" name="number" size="10" placeholder="98765-43210" pattern="[0-9]{5}-[0-9]{5}" required><br><br>
+    <label for="number"> Enter parent's phone number</label> <br>
+    <input type="number" id="number" name="number" size="10" placeholder="98765-43210" pattern="[0-9]{5}-[0-9]{5}" required><br><br>
+    <label for="number"> Enter landline number </label> <br>
+    <input type="number" id="number" name="number" size="12" placeholder="044-440-222222" pattern="[0-9]{3}-[0-9]{3}-[0-9]{6}"><br><br>
+    <label for="password"> Create your SKCT password </label><br>
+    <input type="password" name="password" required><br><br>
+    <label for="password"> Confirm password </label><br>
+    <input type="password" name="password" required><br><br>
+    <label for="text"> Have you filled all the particulars? </label>
+    <input style="font-style: oblique; color: white; background-color: red;" type="SUBMIT" name="SUBMIT">
+</form>
+</body>
+</html>
